@@ -4,7 +4,8 @@ import infoImage from '../assets/Img_003.jpg';
 const About = () => {
 
     return (
-        <div className="about-container">
+        <>
+                <div className="about-container">
             <h1>About</h1>
             <div>
                 <p className="text-color-grey">
@@ -57,6 +58,8 @@ const About = () => {
                 Curabitur eget nisl hendrerit, tempus purus vel, rhoncus lectus. Nullam diam velit, porta id nisl ac, suscipit sagittis neque. Quisque eu luctus diam.
             </p>
         </div>
+        </>
+
     );
 };
 

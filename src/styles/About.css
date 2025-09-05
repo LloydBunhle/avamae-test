@@ -1,13 +1,8 @@
 .about-container {
-    top: -50px;
-    width: 76%;
-    height: 177px;
-    text-align: left;
-    letter-spacing: 0px;
-    opacity: 1;
-    margin: 8%;
-    position: absolute;
-}
+       width: 76%;
+       padding: 9%;
+       margin-top: -6%;
+   }
 .image-container {
     flex: 1;
     text-align: center;

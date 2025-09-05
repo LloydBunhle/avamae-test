@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NavBar from './pages/NavBar';
+import Footer from './pages/Footer'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const App = () => {
     <>
     <NavBar/>
     <RouterProvider router={router} />
+    <Footer/>
     </>
   ) 
 };

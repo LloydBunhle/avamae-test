@@ -1,6 +1,7 @@
 .contact-container {
     padding: 24px;
-  }
+    height: 100vh;
+}
   
   .contact-row {
     display: grid;

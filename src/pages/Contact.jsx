@@ -100,7 +100,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <>
+  <div className="contact-container">
       <div className="contact-row">
         <div className="contact-left">
           <h1 className="contact-header">Contact Us</h1>
@@ -261,6 +262,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
+  
   );
 };
 
