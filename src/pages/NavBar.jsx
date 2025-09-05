@@ -8,7 +8,6 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-content">
-          {/* Logo and Company Name */}
           <div className="logo-container">
             
             <a href="#" className="logo-container">
