@@ -1,0 +1,178 @@
+.slide {
+    position: relative;
+  }
+  
+  .slide-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .slide-content {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: justify;
+  }
+  
+  .sign-in-btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #0056b3;
+  }
+  .info-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+    gap: 40px;
+  }
+  
+  .info-text {
+    flex: 1;
+  }
+  
+  .info-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .info-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .info-text ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  
+  .info-text ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #444;
+  }
+  
+  .learn-more-btn {
+    background-color: #2B7BA0;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+  }
+
+  .login-btn{
+    width: 130px;
+    height: 40px;
+    background: #EDF6F8 0% 0% no-repeat padding-box;
+    color: #2B7BA0;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    
+  .info-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .info-image img {
+    max-width: 50%;
+    height: auto;
+  }
+
+
+  .background-row {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: url('../assets/Img_002.jpg') no-repeat top center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    color: #fff;
+    text-align: justify;
+    width: 780px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 115px;
+    height: 324px;
+    border-radius: 3px;
+  }
+  
+  .background-overlay h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .background-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .three-cols-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 60px 40px;
+    margin-top: -57px;
+} 
+  .three-cols-row .col {
+    width: 442px;
+  }
+  
+  .three-cols-row .col p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .contact-btn {
+    font-size: 14px;
+    margin-top: 15px;
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #2B7BA0 0% 0% no-repeat padding-box;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+  }
+  .cnt-us{
+    text-align: center;
+  }
+  .mid-section {
+    text-align: center;
+  }
+
+  
